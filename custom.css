@@ -1,0 +1,39 @@
+body {
+	background-image: url("img/background.png");
+	background-size: cover;
+}
+
+
+form {
+	background-color: #F6F6F6;
+	padding: 10px 10px;
+	width: 400px;
+}
+
+.formwrapper {
+	margin-top: 10px;
+}
+
+input {
+	background-image: ;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+	padding: 3px 20px;
+}
+
+input:first-child  {
+	margin-top: 0;
+}
+
+input[type='checkbox'] {
+	float: left;
+	width: 20px;
+}
+
+input[type='checkbox'] + label {
+  display: block;
+  width: 30px;
+}
+

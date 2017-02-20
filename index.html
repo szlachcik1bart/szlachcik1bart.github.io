@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head> 
+	<title>Full of forms</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="custom.css" type="text/css">
+	<!-- trzeba dodać czcionki -->
+</head>
+
+
+<body> 
+
+	<header>
+		<img src="img/logo.png" alt="masteralb.com">
+	</header>
+
+	<p>Register Form</p>
+	<form class="formlook">
+		<input type="text" placeholder="Username" required>
+		<input type="password" placeholder="Username" required>
+		<input type="pasword" placeholder="Username" required>
+		<input type="email" placeholder="Username" required>
+		<input list="location" name="locationlist" placeholder="Your location" required>
+			<datalist id="location">
+				<option value="USA">
+				<option value="Europe">
+				<option value="Canada">
+			</datalist>
+		<label><input type="checkbox" required>I have read and accept the terms of use.</label>
+	</form>
+
+	<p>Send Email</p>
+	<form>
+		<input type="text" placeholder="Your name" required>
+		<input type="email" placeholder="Your Email" required>
+		<input type="text-area" placeholder="Type your message...">
+		<label><input type="checkbox" required>Send a copy to my Email</label>
+		<button type="submit">Send Email</button>
+	</form>
+
+	<p>Sign In Form</p>
+	<form>
+		<input type="text" placeholder="Username" required>
+		<input type="pasword" placeholder="Password" required>
+		<label><input type="checkbox" required>Remember me</label>
+		<button type="submit">Sign in</button>
+	</form>
+		
+	<p>Recover Form</p>
+	<form>
+		<input type="text" placeholder="Enter your Email" required>
+		<input type="text" placeholder="Enter your Phone number" required>
+		<button type="submit">Send</button>
+		<button type="submit">Done</button>
+	</form>
+	
+	<p>Subscribe Form</p>
+	<form>
+		<input type="text" placeholder="Enter your Email" required>
+		<button type="submit">Subscribe</button>
+		<button type="submit">No, thanks</button>
+	</form>
+
+	
+	<footer>
+				<img src="img/logo.png" alt="masteralb.com">
+	</footer>
+</body>
+</html>
